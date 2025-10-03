@@ -31,6 +31,8 @@ export default function Cart({ work }: { work: IWork }) {
             src={work.img}
             alt="Website image"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            priority
             className=" rounded-t-[4px]"
           />
         </div>

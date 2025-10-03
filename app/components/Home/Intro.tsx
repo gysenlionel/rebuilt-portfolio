@@ -17,7 +17,7 @@ export default function Intro() {
     lg:bg-[position:top,bottom]
     lg:bg-no-repeat
     lg:border-l-2 border-l-customWhite
-    lg:border-r-2 border-r-customBlue z-10
+    lg:border-r-2 border-r-customBlue !z-10
     "
     >
       <div className="w-full relative flex justify-center lg:justify-normal">

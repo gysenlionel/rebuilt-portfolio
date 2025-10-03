@@ -46,20 +46,6 @@ h6 {
   color-scheme: light;
 }
 
-[data-theme='dark'] {
-  /* dark */
-  --body-hex: #000000;
-  --text-hex: #fcf6f4;
-  --body-rgba: 0, 0, 0;
-  --text-rgba: 252, 246, 244;
-
-  --customWhite-hex: #fcf6f4;
-  --customWhite-rgba: 252, 246, 244;
-  --customBlue-hex: #285979;
-  --customBlue-rgba: 40, 89, 121;
-  color-scheme: dark;
-}
-
 @theme inline {
   --color-body: rgb(var(--body-rgba));
   --color-text: rgb(var(--text-rgba));

@@ -25,7 +25,7 @@ export default function Earth() {
           click
             ? 'top-[90%] left-1/2 md:top-[90%] md:left-[80%] lg:top-[85%] lg:left-[85%] gap-0'
             : 'top-1/2 left-1/2 gap-4'
-        } border-none outline-none bg-transparent cursor-pointer flex flex-col justify-center items-center -translate-x-1/2 -translate-y-1/2 transition-all duration-1000 ease-[cubic-bezier(0.25,0.1,0.25,1)]`}
+        } border-none outline-none bg-transparent cursor-pointer flex flex-col justify-center items-center -translate-x-1/2 -translate-y-1/2 transition-all duration-1000 ease-[cubic-bezier(0.25,0.1,0.25,1)] z-20`}
       >
         <EarthSVG
           width={click ? 80 : 150}
