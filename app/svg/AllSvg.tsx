@@ -1,4 +1,4 @@
-export const Rocket = (props: any) => (
+export const Rocket = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 426.73 746.26"
@@ -179,7 +179,7 @@ export const Rocket = (props: any) => (
   </svg>
 )
 
-export const Github = (props: any) => {
+export const Github = (props: React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       aria-hidden="true"
@@ -198,7 +198,7 @@ export const Github = (props: any) => {
   )
 }
 
-export const Link = (props: any) => {
+export const Link = (props: React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       aria-hidden="true"
@@ -217,13 +217,13 @@ export const Link = (props: any) => {
   )
 }
 
-export const Linkedin = (props: any) => (
+export const Linkedin = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" {...props}>
     <path d="M25 2C12.318 2 2 12.317 2 25s10.318 23 23 23 23-10.317 23-23S37.682 2 25 2zm-7 33h-4V20h4v15zm-2-18a2 2 0 1 1-.001-3.999A2 2 0 0 1 16 17zm21 18h-4v-7.5c0-1.925-1.575-3.5-3.5-3.5S26 25.575 26 27.5V35h-4V20h4v1.816A6.476 6.476 0 0 1 30.5 20a6.5 6.5 0 0 1 6.5 6.5V35z" />
   </svg>
 )
 
-export const Earth = (props: any) => (
+export const Earth = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" {...props}>
     <title>{'Earth'}</title>
     <defs>
@@ -319,7 +319,7 @@ export const Earth = (props: any) => (
   </svg>
 )
 
-export const Lune = (props: any) => (
+export const Lune = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     // width="150"
     xmlns="http://www.w3.org/2000/svg"
@@ -672,7 +672,7 @@ export const Lune = (props: any) => (
   </svg>
 )
 
-export const Moon = (props: any) => (
+export const Moon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110" {...props}>
     <defs>
       <filter id="a" colorInterpolationFilters="sRGB">
@@ -772,7 +772,7 @@ export const Moon = (props: any) => (
   </svg>
 )
 
-export const Planet = (props: any) => (
+export const Planet = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -999,7 +999,7 @@ export const Planet = (props: any) => (
   </svg>
 )
 
-export const RedPlanet = (props: any) => (
+export const RedPlanet = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 379.659 380.973"
@@ -1008,7 +1008,7 @@ export const RedPlanet = (props: any) => (
     <defs>
       <filter
         style={{
-          colorInterpolationFilters: 'sRGB',
+          colorInterpolation: 'sRGB',
         }}
         id="aaaa"
         x={-0.475}
@@ -1761,7 +1761,7 @@ export const RedPlanet = (props: any) => (
   </svg>
 )
 
-export const Flame = (props: any) => (
+export const Flame = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.78 180.9" {...props}>
     <defs>
       <filter id="ddddddd" height={1.075} width={1.591} y={-0.037} x={-0.296}>
@@ -1822,7 +1822,7 @@ export const Flame = (props: any) => (
   </svg>
 )
 
-export const Satellite = (props: any) => (
+export const Satellite = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -2166,7 +2166,7 @@ export const Satellite = (props: any) => (
   </svg>
 )
 
-export const Jupiter = (props: any) => (
+export const Jupiter = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 819 794"

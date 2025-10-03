@@ -15,7 +15,7 @@ export default function PowerButton() {
             pathname === '/work' ? 'left-[50.5%]' : 'left-1/2'
           } -translate-x-1/2 translate-y-0 bg-customWhite p-[0.3rem] rounded-full border-1 border-black size-10 flex flex-col justify-center items-center z-30 cursor-pointer hover:bg-[#e9e51866] hover:shadow-[0_0_8px_6px_#dde01833] [&>*:first-child]:no-underline [&>*:first-child]:text-inherit`}
         >
-          <Rocket width={16} heigth={16} fill="#ccc" />
+          <Rocket width={16} fill="#ccc" />
         </div>
         <p
           className={`${

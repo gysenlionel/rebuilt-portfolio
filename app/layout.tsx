@@ -52,7 +52,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${pacifico.variable} ${karla.variable} ${geistMono.variable} ${source.variable} antialiased`}
       >
-        <LayoutComponent children={children} />
+        <LayoutComponent>{children}</LayoutComponent>
       </body>
     </html>
   )

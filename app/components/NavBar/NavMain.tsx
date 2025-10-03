@@ -14,7 +14,7 @@ export default function NavMain() {
   const click = useEarthStore((s) => s.click)
 
   useEffect(() => {
-    let updateDimension = () => {
+    const updateDimension = () => {
       setWidth(window.innerWidth)
     }
 

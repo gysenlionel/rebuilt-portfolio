@@ -10,7 +10,7 @@ export default function WorkComponent() {
   const [numbers, setNumbers] = useState(0)
 
   useEffect(() => {
-    let num = (window.innerHeight - 70) / 30
+    const num = (window.innerHeight - 70) / 30
     setNumbers(parseInt(num.toString()))
   }, [])
 

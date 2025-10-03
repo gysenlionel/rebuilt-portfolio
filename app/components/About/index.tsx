@@ -13,7 +13,7 @@ export default function AboutComponent() {
   )
 
   useEffect(() => {
-    let updateDimension = () => {
+    const updateDimension = () => {
       setWidth(window.innerWidth)
     }
 
@@ -66,7 +66,8 @@ export default function AboutComponent() {
             transition={{ duration: 1, delay: 1.5 }}
           >
             <p>
-              I'm Lionel Gysen, i live in Brussels and i am a web developer.
+              I&apos;m Lionel Gysen, i live in Brussels and i am a web
+              developer.
             </p>
             <br />
 

@@ -25,9 +25,9 @@ export default function Intro() {
           <h1 className="font-bold text-[2em] leading-10 lg:leading-none">
             Hi,
           </h1>
-          <h3 className="text-[1.2em]">I'm Lionel.</h3>
+          <h3 className="text-[1.2em]">I&apos;m Lionel.</h3>
           <h6 className="!font-karla text-[1em] leading-4 lg:leading-none">
-            I'm a Web Developer.
+            I&apos;m a Web Developer.
           </h6>
         </div>
       </div>

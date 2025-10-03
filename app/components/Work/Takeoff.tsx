@@ -4,18 +4,18 @@ import { Flame, Rocket } from '../../svg/AllSvg'
 import { useEffect, useRef } from 'react'
 
 export default function Takeoff({ numbers }: { numbers: number }) {
-  const ref: any = useRef(null)
-  const hiddenRef: any = useRef(null)
+  const ref = useRef<HTMLDivElement | null>(null)
+  const hiddenRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
-      let scrollPosition = window.pageYOffset
-      let windowSize = window.innerHeight
-      let bodyHeight = document.body.offsetHeight
+      const scrollPosition = window.pageYOffset
+      const windowSize = window.innerHeight
+      const bodyHeight = document.body.offsetHeight
 
-      let diff = Math.max(bodyHeight - (scrollPosition + windowSize))
+      const diff = Math.max(bodyHeight - (scrollPosition + windowSize))
 
-      let diffP = (diff * 100) / (bodyHeight - windowSize)
+      const diffP = (diff * 100) / (bodyHeight - windowSize)
 
       if (ref.current) {
         ref.current.style.transform = `translateY(${-diffP}%)`

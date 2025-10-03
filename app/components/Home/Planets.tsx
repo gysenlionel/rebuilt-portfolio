@@ -1,7 +1,7 @@
 'use client'
 
 import { useEarthStore } from '@/app/store/earthClick'
-import { Jupiter, Planet, RedPlanet } from '@/app/svg/AllSvg'
+import { Jupiter, RedPlanet } from '@/app/svg/AllSvg'
 import { motion } from 'framer-motion'
 
 export default function Planets() {
