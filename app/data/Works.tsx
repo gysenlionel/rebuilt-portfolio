@@ -69,11 +69,4 @@ export const Works: IWork[] = [
       'Next.js, TypeScript, TailwindCSS, Redux Toolkit, Stripe, Express.Js, MongoDb, Jest, Swagger',
     links: 'https://app.holid-server.xyz/',
   },
-  {
-    id: 10,
-    img: '/assets/img/littleguest.webp',
-    explain: 'Travel agency offering a selection of child-friendly hotels.',
-    techno: 'Next.js, Symphony, Node.js',
-    links: 'https://www.littleguestcollection.com/fr',
-  },
 ]
